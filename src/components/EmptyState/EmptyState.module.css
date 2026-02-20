@@ -1,0 +1,9 @@
+.wrap {
+  background: var(--color-panel);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: var(--radius);
+  padding: var(--space-3);
+  color: var(--color-muted);
+}
+.h3 { margin: 0 0 6px; color: var(--color-text); }
+.p { margin: 0; }

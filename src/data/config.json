@@ -1,0 +1,8 @@
+{
+  "slotIntervalMinutes": 60,
+  "openHour": 6,
+  "closeHour": 22,
+  "maxAdvanceDays": 14,
+  "currency": "INR",
+  "defaultPricePerHour": 350
+}

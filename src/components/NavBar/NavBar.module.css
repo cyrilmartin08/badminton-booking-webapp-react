@@ -1,0 +1,31 @@
+.header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(6px);
+  background: rgba(4, 11, 20, 0.6);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  z-index: 10;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+.brand {
+  font-weight: 700;
+  letter-spacing: 0.4px;
+}
+.nav {
+  display: flex;
+  gap: var(--space-3);
+}
+.link {
+  padding: 8px 12px;
+  color: var(--color-muted);
+  border-radius: 8px;
+}
+.active {
+  color: var(--color-text);
+  background: rgba(255,255,255,0.06);
+}

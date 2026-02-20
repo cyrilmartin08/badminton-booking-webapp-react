@@ -1,0 +1,40 @@
+.wrapper { padding: var(--space-3); }
+.legend {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-2);
+  font-size: 12px;
+  color: var(--color-muted);
+}
+.legendItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  background: rgba(255,255,255,0.06);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-2);
+}
+@media (min-width: 680px) {
+  .grid { grid-template-columns: repeat(6, 1fr); }
+}
+.slot {
+  border: 1px solid rgba(255,255,255,0.08);
+  padding: 10px 8px;
+  border-radius: 10px;
+  color: var(--color-text);
+  cursor: pointer;
+  background: var(--slot-available);
+  transition: transform 0.08s ease, background 0.2s ease, border-color 0.2s ease;
+}
+.slot:hover { transform: translateY(-1px); }
+.available { background: var(--slot-available); }
+.selected { background: var(--slot-selected); border-color: #1e40af; }
+.booked { background: var(--slot-booked); border-color: #7f1d1d; }
+.past { background: var(--slot-past); border-color: #475569; }
+.disabled { background: var(--slot-disabled); border-color: #525252; cursor: not-allowed; }

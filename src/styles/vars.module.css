@@ -1,0 +1,28 @@
+:root {
+  --color-bg: #0f172a;
+  --color-panel: #111827;
+  --color-surface: #1f2937;
+
+  --color-text: #e5e7eb;
+  --color-muted: #9ca3af;
+
+  --primary: #22c55e;
+  --primary-600: #16a34a;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --info: #3b82f6;
+
+  --slot-available: #1e293b;
+  --slot-selected: #1d4ed8;
+  --slot-booked: #b91c1c;
+  --slot-past: #334155;
+  --slot-disabled: #4b5563;
+
+  --radius: 10px;
+  --space-1: 6px;
+  --space-2: 10px;
+  --space-3: 14px;
+  --space-4: 20px;
+
+  --shadow: 0 8px 20px rgba(0,0,0,0.2);
+  }

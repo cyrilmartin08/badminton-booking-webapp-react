@@ -1,0 +1,7 @@
+{
+  "courts": [
+    { "id": "c1", "name": "Court A", "location": "HSR Layout", "surface": "wood", "indoor": true },
+    { "id": "c2", "name": "Court B", "location": "Koramangala", "surface": "synthetic", "indoor": true },
+    { "id": "c3", "name": "Court C", "location": "Indiranagar", "surface": "cement", "indoor": false }
+  ]
+}

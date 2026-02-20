@@ -1,0 +1,7 @@
+.summary {
+  display: grid;
+  gap: 6px;
+}
+.row { display: flex; gap: 10px; align-items: center; }
+.label { color: var(--color-muted); min-width: 70px; }
+.value { font-weight: 600; }
